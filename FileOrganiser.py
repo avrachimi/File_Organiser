@@ -11,13 +11,13 @@ class MyHandler(FileSystemEventHandler):
     def on_modified(self, event):
 
         ''' Created a list for each type of items since I might add more extensions in the future '''
-        imageExtensions = [".jpg", ".jpeg", ".png", ".HEIC"]
-        pdfExtensions = [".pdf"]
-        zipExtensions = [".zip", ".tar"]
-        dmgExtensions = [".dmg"]
-        wordExtensions = [".docx", ".doc"]
-        powerpointExtensions = [".ppt", ".pptx"]
-        excelExtensions = [".csv", ".xlsx", ".xlsm"]
+        imageExtensions = [".jpg", ".JPG", ".jpeg", ".JPEG", ".png", ".PNG", ".heic", ".HEIC"]
+        pdfExtensions = [".pdf", ".PDF"]
+        zipExtensions = [".zip", ".tar", ".ZIP", ".TAR"]
+        dmgExtensions = [".dmg", ".DMG"]
+        wordExtensions = [".docx", ".doc", ".DOCX", ".DOC"]
+        powerpointExtensions = [".ppt", ".pptx", ".PPT", ".PPTX"]
+        excelExtensions = [".csv", ".xlsx", ".xlsm", ".CSV", ".XLSX", ".XLSM"]
 
 
 
